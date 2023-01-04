@@ -386,11 +386,17 @@ footer div{
 }
 
 #gallery img {
+  transition: transform .5s;
+  border-radius: 5%;
   width: 100% !important;
   height: auto !important;
   margin-bottom: 8px;
+  
   /* to match column gap */
 
+}
+#gallery img:hover{
+  transform: scale(1.05);
 }
 
 
@@ -441,7 +447,20 @@ footer div{
 }
 .initiatives-gallery{
   display: flex;
+  padding: 25px;
+}
 
+.initiatives-gallery img{
+  border-radius: 15%;
+}
+
+.grow{
+transition: transform .5s;
+padding: 20px;
+}
+
+.grow:hover {
+  transform: scale(1.08);
 }
 
 
