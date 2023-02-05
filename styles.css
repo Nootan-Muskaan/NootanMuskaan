@@ -219,6 +219,7 @@ body {
     margin-right: auto;
 }
 @media (max-width: 768px) {
+  
   .mediaimg{
     display: flex;
     width: 100%;
