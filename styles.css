@@ -83,10 +83,10 @@ body {
 .navbar-nav>li {
   padding-left: 20px;
   padding-right: 10px;
-  font-size: 20px;
+  font-size: 19px;
 }
 .first{
-  margin-left: 100px;
+  margin-left: 90px;
 }
 .nav-item {
   font-weight: 400;
@@ -100,7 +100,7 @@ body {
   padding: 20px;
   
 }
-@media (max-width: 768px){
+@media (max-width: 995px){
   .navbar{
     background: linear-gradient(94deg, rgba(215,215,215,1) 0%, rgba(83,119,170,1) 50%, rgba(27,88,142,1) 83%);
       width: 100%;
